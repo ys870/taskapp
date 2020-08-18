@@ -13,6 +13,7 @@
 		F60C01BA24EA1B4500BA10CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60C01B824EA1B4500BA10CC /* Main.storyboard */; };
 		F60C01BC24EA1B4700BA10CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60C01BB24EA1B4700BA10CC /* Assets.xcassets */; };
 		F60C01BF24EA1B4700BA10CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60C01BD24EA1B4700BA10CC /* LaunchScreen.storyboard */; };
+		F6F0C21824EB64AC00D73E9D /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0C21724EB64AC00D73E9D /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F60C01BB24EA1B4700BA10CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60C01BE24EA1B4700BA10CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60C01C024EA1B4700BA10CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F0C21724EB64AC00D73E9D /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F60C01B224EA1B4500BA10CC /* AppDelegate.swift */,
 				F60C01B424EA1B4500BA10CC /* SceneDelegate.swift */,
 				F60C01B624EA1B4500BA10CC /* ViewController.swift */,
+				F6F0C21724EB64AC00D73E9D /* InputViewController.swift */,
 				F60C01B824EA1B4500BA10CC /* Main.storyboard */,
 				F60C01BB24EA1B4700BA10CC /* Assets.xcassets */,
 				F60C01BD24EA1B4700BA10CC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F60C01B724EA1B4500BA10CC /* ViewController.swift in Sources */,
 				F60C01B324EA1B4500BA10CC /* AppDelegate.swift in Sources */,
 				F60C01B524EA1B4500BA10CC /* SceneDelegate.swift in Sources */,
+				F6F0C21824EB64AC00D73E9D /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ys870.taskapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ys870.taskapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
